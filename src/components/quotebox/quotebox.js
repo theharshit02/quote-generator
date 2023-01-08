@@ -28,7 +28,7 @@ const Quotebox = (props) => {
   return (
     <div style={{backgroundColor: color[1]}} className={styles.box}>
       <div>
-        <form onSubmit={submitHandler}>
+        <form className={styles.form} onSubmit={submitHandler}>
             <p className={styles.number}>ADVICE #{advicenum}</p>
             <p className={styles.advice}>"{advice}"</p>
             <p className={styles.line1}></p>

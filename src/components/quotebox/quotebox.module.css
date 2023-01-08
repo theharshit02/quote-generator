@@ -1,17 +1,26 @@
 .box{
     width: 480px;
     height: 294px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     background: #313A49;
     box-shadow: 10px 61px 123px 11px rgba(0, 0, 0, 0.2);
     border-radius: 14px;
 }
 
+.form{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .number{
     position: absolute;
+    width: 120px;
     height: 16px;
-    left: 710px;
-    top: 247px;
+    top: -120px;
     
     font-style: normal;
     font-weight: 700;
@@ -20,22 +29,17 @@
     letter-spacing: 0.305em;
     
     color: #8DD9C7;
-    
-    /* border: 0.5px solid #1E3E3D; */
 }
 
 .advice{
     position: absolute;
     width: 407px;
     height: 127px;
-    left: 565px;
-    top: 289px;
 
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 125.19%;
-    /* or 31px */
 
     text-align: center;
     letter-spacing: 0.03em;
@@ -47,8 +51,8 @@
     position: absolute;
     width: 175px;
     height: 0px;
-    left: 565px;
-    top: 424px;
+    top: 50px;
+    left: -200px;
     
     border: 1px solid #444E5C;
 }
@@ -57,8 +61,8 @@
     position: absolute;
     width: 175px;
     height: 0px;
-    left: 797px;
-    top: 424px;
+    top: 50px;
+    left: 20px;
     
     border: 1px solid #444E5C;
 }
@@ -67,8 +71,8 @@
     position: absolute;
     width: 6px;
     height: 15px;
-    left: 760px;
-    top: 416px;
+    top: 44px;
+    left: -10px;
 
     background: #FFFFFF;
     border-radius: 4px;
@@ -78,8 +82,8 @@
     position: absolute;
     width: 6px;
     height: 15px;
-    left: 771px;
-    top: 416px;
+    top: 44px;
+    left: 1px;
 
     background: #FFFFFF;
     border-radius: 4px;
@@ -91,13 +95,11 @@
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    /* position: relative; */
     position: absolute;
     border-radius: 100%;
     width: 59px;
     height: 59px;
-    left: 740px;
-    top: 490px;
+    top: 115px;
     background: #55FCAA;
     -webkit-transition-property: color;
     transition-property: color;
